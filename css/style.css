@@ -1,0 +1,181 @@
+/* Text */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+  }
+  h1 {
+      color:rgb(58, 59, 59);
+      font-size: 42 pt;
+      font-weight: bold;
+  }
+
+  h2 {
+    color:rgb(58, 59, 59);
+    font-size: 36;
+    font-weight: 300;
+  }
+  
+  p {
+    font-family: 'Lato', sans-serif;
+  }
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+  }
+  .nav-item {
+    margin: 0px 15px;
+  }
+  
+hr {
+    margin: 0; 
+}
+
+#workTitle{
+    text-align: center;
+    padding-top: 10%;
+}
+
+.section1 {
+    display: grid;
+    grid-template-columns: repeat(8, 12.5%);
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    margin-top: 5%; 
+  }
+  
+  #nasaPhoto{
+    grid-column-start: 2;
+    margin-right: 20%;
+    padding: 10%;
+  }
+
+  #nasaInfo{
+    grid-column: 5 / span 4;
+    margin-right: 20%;
+    margin-left: 10%;
+    padding: 10%;
+  }
+  .section2 {
+    display: grid;
+    grid-template-columns: repeat(8, 12.5%);
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    margin-top: 10%; 
+  }
+  
+  #goruInfo{
+    grid-column: 2 / span 4;
+    margin-right: 20%;
+    padding: 10%;
+  }
+
+  #goruPhoto{
+    grid-column-start: 6;
+    margin-right: 20%;
+    margin-left: 10%;
+    padding: 10%;
+  }
+
+  .section3 {
+    display: grid;
+    grid-template-columns: repeat(8, 12.5%);
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    margin-top: 10%; 
+  }
+  
+  #otcPhoto{
+    grid-column-start: 2;
+    margin-right: 20%;
+    padding: 10%;
+  }
+
+  #otcInfo{
+    grid-column: 5 / span 4;
+    margin-right: 20%;
+    margin-left: 10%;
+    padding: 10%;
+  }
+  .section4 {
+    display: grid;
+    grid-template-columns: repeat(8, 12.5%);
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    margin-top: 10%; 
+  }
+  
+  #zipzyInfo{
+    grid-column: 2 / span 4;
+    margin-right: 20%;
+    padding: 10%;
+  }
+
+  #zipzyPhoto{
+    grid-column-start: 6;
+    margin-right: 20%;
+    margin-left: 10%;
+    padding: 10%;
+  }
+
+  #aboutTitle {
+    text-align: center;
+    padding-top: 15%;
+}
+
+#aboutText {
+    margin: 5% 25% 3% 25%;
+
+}
+
+#aboutPhoto {
+    text-align: center;
+}
+
+#resumeButton {
+    text-align: center;
+    margin: 5%;
+}
+
+#socialMediaIcons {
+    text-align: center;
+    margin: 5%;
+}
+
+#colorBox {
+    background-color: rgb(140, 183, 183) ;
+    height: 250px;
+    width: 100vw; 
+    margin-top: 10%;
+    justify-content: center; 
+}
+
+.quote {
+    margin-left: 25%;
+    margin-right: 30%;
+}
+
+#vertical { 
+    border-left: 4px solid white; 
+    height: 120px; 
+    position: absolute; 
+    margin-top: 75px;
+} 
+
+#paulaQuote {
+    color: white;
+    position: absolute; 
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#paulaName {
+    color: rgb(215, 230, 230);
+    position: absolute; 
+    margin-top: 150px;
+    margin-left: 20px;
+    margin-right: 20px; 
+}
+
+
+
